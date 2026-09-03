@@ -1,0 +1,8 @@
+{
+  "name": "wallet-pulse",
+  "version": "1.0.0",
+  "description": "Check any crypto wallet's balances across 5 EVM chains in one call, from plain Node.js",
+  "main": "index.js",
+  "scripts": {"start": "node index.js"},
+  "dependencies": {"wallet-watcher": "^1.0.2"}
+}
