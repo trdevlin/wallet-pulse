@@ -18,6 +18,5 @@ polygon    592.719 POL
 ```
 
 Balances come from public RPC endpoints via
-[wallet-watcher](https://www.npmjs.com/package/wallet-watcher) — no API keys,
-no signup. Wrap `getBalances()` in a loop and you have a monitor; point it at
+public RPCs — no API keys, no signup. Wrap `getBalances()` in a loop and you have a monitor; point it at
 Telegram/Discord and you have an alert bot.

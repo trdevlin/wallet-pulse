@@ -1,5 +1,5 @@
 // wallet-pulse — one call, all your wallet balances.
-const { getBalances } = require("wallet-watcher");
+const { getBalances } = require("./balance");
 
 const WALLET = process.argv[2] || "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045";
 
